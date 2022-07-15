@@ -1,7 +1,7 @@
 /* start global rules */
 
 :root {
-  --dark-yellow: #ae944f;
+  --dark-yellow: #4edfd7;
   --light-black: #1f1f1f;
 }
 
@@ -105,7 +105,7 @@ body {
 /* start landing */
 
 .landing {
-  background-color: #e9d5a1;
+  background-color: #4edfd7;
   height: calc(100vh - 75px);
 }
 
@@ -200,13 +200,13 @@ body {
 
 /* start projects */
 .projects {
-  background-color: #efe1bd;
+  background-color: #0e8f8991;
   padding: 30px 0 80px 0;
 }
 
 .projects ul li.active,
 .projects ul li:hover {
-  background-color: var(--dark-yellow);
+  background-color: #0a9b98;
   color: white;
 }
 
@@ -243,7 +243,7 @@ body {
   position: absolute;
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  background-color: #e9d5a1d6;
+  background-color: #4edfd883;
   font-size: 1.5rem;
   font-weight: 600;
   display: flex;
@@ -254,7 +254,7 @@ body {
   cursor: pointer;
   z-index: 1;
   border-radius: 10px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .projects .box:hover::before {
@@ -330,8 +330,8 @@ body {
   transition: 0.3s !important;
 }
 .skills .skill-box:hover {
-  background-color: white;
-  color: black;
+  background-color: #085857;
+  /* color: black; */
   /* transition: 0.3s !important; */
 }
 
@@ -361,7 +361,7 @@ body {
 }
 
 .subscribe input[type="submit"] {
-  color: #2a9d8f;
+  color: #71f1eb;
   text-transform: capitalize;
 }
 /* end subscribe */
@@ -372,7 +372,7 @@ body {
 }
 
 .footer .copyright :nth-child(1) {
-  color: #e76f51;
+  color: #4edfd7;
 }
 
 .footer .contact li {
@@ -408,9 +408,35 @@ body {
 /* start media query */
 @media (max-width: 767px) {
   .landing h1 img {
-    display: none;
+     
+    display: none; 
+    
+  /* margin-left: 220px;
+  margin-top: -110px;  */
+    
   }
+  .landing{
+    background-image: url(../imgs/photo_2022-07-14_21-13-20.jpg);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 430px;
+    color: #02faee;
+    
+  }
+.text-center{
+  padding-top: 100px;
+}
+.bgblack{
+  background-color: #07080467;
+  background-size: cover;
+   
+    min-height: 100%;
+}
 
+/* img {
+  display:list-item;
+  margin-left: 50px;
+} */
   .skills .skills-box {
     flex-wrap: wrap;
   }
