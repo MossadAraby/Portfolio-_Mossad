@@ -11,7 +11,7 @@ let saTab = document.querySelector(".sass-tab");
 let javaTab = document.querySelector(".js-tab");
 
 tabs.forEach(function (ele) {
-  ele.style.cssText = "transition: 0.7s";
+  ele.style.cssText = "transition: 0.6s";
 });
 allTab.addEventListener("click", function (e) {
   tabs.forEach(function (ele) {
