@@ -150,7 +150,7 @@ body {
   border-right: 2px solid #0000008c;
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter 4s steps(21) 2s both 2, border 0.5s both infinite;
+  animation: typewriter 4s steps(21) 2s both 6, border 0.5s both infinite;
 }
 
 @keyframes typewriter {
