@@ -1,13 +1,13 @@
 // define boxes variables
 const Html = document.querySelectorAll(".html");
-const Sass = document.querySelectorAll(".sass");
+const photoshop = document.querySelectorAll(".photoshop");
 const js = document.querySelectorAll(".js");
 
 // define tabs variables
 const tabs = document.querySelectorAll(".animated-list li");
 let allTab = document.querySelector(".all-tab");
 let HtTab = document.querySelector(".html-tab");
-let saTab = document.querySelector(".sass-tab");
+let phTab = document.querySelector(".photoshop-tab");
 let javaTab = document.querySelector(".js-tab");
 
 tabs.forEach(function (ele) {
@@ -18,7 +18,7 @@ allTab.addEventListener("click", function (e) {
     ele.classList.remove("active");
     e.currentTarget.classList.add("active");
   });
-  Sass.forEach(function (ele) {
+  photoshop.forEach(function (ele) {
     ele.classList.add("show");
     ele.classList.remove("hidden");
   });
@@ -37,7 +37,7 @@ HtTab.addEventListener("click", function (e) {
     ele.classList.remove("active");
     e.currentTarget.classList.add("active");
   });
-  Sass.forEach(function (ele) {
+  photoshop.forEach(function (ele) {
     ele.classList.add("hidden");
     ele.classList.remove("show");
   });
@@ -51,7 +51,7 @@ HtTab.addEventListener("click", function (e) {
   });
 });
 
-saTab.addEventListener("click", function (e) {
+phTab.addEventListener("click", function (e) {
   tabs.forEach(function (ele) {
     ele.classList.remove("active");
     e.currentTarget.classList.add("active");
@@ -64,7 +64,7 @@ saTab.addEventListener("click", function (e) {
     ele.classList.add("hidden");
     ele.classList.remove("show");
   });
-  Sass.forEach(function (ele) {
+  photoshop.forEach(function (ele) {
     ele.classList.add("show");
     ele.classList.remove("hidden");
   });
@@ -79,7 +79,7 @@ javaTab.addEventListener("click", function (e) {
     ele.classList.add("hidden");
     ele.classList.remove("show");
   });
-  Sass.forEach(function (ele) {
+  photoshop.forEach(function (ele) {
     ele.classList.add("hidden");
     ele.classList.remove("show");
   });
