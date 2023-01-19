@@ -249,7 +249,7 @@
             position: absolute;
             width: calc(100% - 10px);
             height: calc(100% - 10px);
-            background-color: #4edfd883;
+            background-color: #03030383;
             font-size: 1.5rem;
             font-weight: 600;
             display: flex;
@@ -260,7 +260,7 @@
             cursor: pointer;
             z-index: 1;
             border-radius: 10px;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
         }
         
         .projects .box:hover::before {
